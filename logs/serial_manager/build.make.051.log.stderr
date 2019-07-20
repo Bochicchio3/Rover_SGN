@@ -1,0 +1,16 @@
+In file included from [01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:1:0[m[K:
+[01m[K/home/robot/catkin_ws/src/SerialManager/include/serial_manager.h:64:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint new_packet[m[K’
+ int new_packet = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/robot/catkin_ws/src/SerialManager/include/serial_manager.h:60:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint new_packet[m[K’ previously declared here
+ int new_packet;
+[01;32m[K     ^[m[K
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:236:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_packet[m[K’ does not name a type
+     new_packet--; 
+[01;32m[K     ^[m[K
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o] Error 1
+make[1]: *** [CMakeFiles/SerialManagerFunction.dir/all] Error 2
+make: *** [all] Error 2

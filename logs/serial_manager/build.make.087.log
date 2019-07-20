@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target SerialManagerFunction[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  9%] [32mBuilding CXX object CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o[0m
+[  9%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target std_msgs_generate_messages_lisp
+[  9%] Built target _serial_manager_generate_messages_check_deps_distance_msg
+[  9%] Built target std_msgs_generate_messages_cpp
+[ 27%] Built target serial_manager_generate_messages_py
+[ 45%] Built target serial_manager_generate_messages_eus
+[ 54%] Built target serial_manager_generate_messages_nodejs
+[ 63%] Built target serial_manager_generate_messages_lisp
+[ 72%] Built target serial_manager_generate_messages_cpp
+[ 72%] Built target serial_manager_generate_messages
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:[m[K In function ‘[01m[Kdouble decode_payload()[m[K’:
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:374:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+     return n;
+[01;32m[K            ^[m[K
+CMakeFiles/SerialManagerFunction.dir/build.make:62: recipe for target 'CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o' failed
+make[2]: *** [CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/SerialManagerFunction.dir/all' failed
+make[1]: *** [CMakeFiles/SerialManagerFunction.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_node_B.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_node_B.cpp:19:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   int result = serial_init(&serial, seriale_dev.c_str());
+[01;32m[K   ^[m[K
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_node_B.cpp:23:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   if (result == 1)
+[01;32m[K       ^[m[K
+make[2]: *** [CMakeFiles/SerialManager.dir/src/serial_manager_node_B.cpp.o] Error 1
+make[1]: *** [CMakeFiles/SerialManager.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/share/serial_manager/cmake/serial_managerConfig.cmake

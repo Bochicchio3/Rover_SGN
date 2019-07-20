@@ -1,0 +1,7 @@
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:[m[K In function ‘[01m[Kdouble decode_payload()[m[K’:
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:374:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+     return n;
+[01;32m[K            ^[m[K
+make[2]: *** [CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o] Error 1
+make[1]: *** [CMakeFiles/SerialManagerFunction.dir/all] Error 2
+make: *** [all] Error 2

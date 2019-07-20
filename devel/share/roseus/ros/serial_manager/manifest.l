@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/share/roseus/ros/serial_manager/manifest.l

@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/share/common-lisp/ros/serial_manager/msg/distance_msg.lisp

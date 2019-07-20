@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target SerialManagerFunction[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  9%] [32mBuilding CXX object CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o[0m
+[  9%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target std_msgs_generate_messages_lisp
+[  9%] Built target _serial_manager_generate_messages_check_deps_distance_msg
+[  9%] Built target std_msgs_generate_messages_cpp
+[ 45%] Built target serial_manager_generate_messages_py
+[ 45%] Built target serial_manager_generate_messages_nodejs
+[ 54%] Built target serial_manager_generate_messages_eus
+[ 72%] Built target serial_manager_generate_messages_cpp
+[ 72%] Built target serial_manager_generate_messages_lisp
+[ 72%] Built target serial_manager_generate_messages
+[ 81%] [32m[1mLinking CXX shared library /home/robot/catkin_ws/devel/.private/serial_manager/lib/libSerialManagerFunction.so[0m
+[ 81%] Built target SerialManagerFunction
+[35m[1mScanning dependencies of target SerialManager[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/SerialManager.dir/src/serial_manager_node_B.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/serial_manager/lib/serial_manager/SerialManager[0m
+[100%] Built target SerialManager

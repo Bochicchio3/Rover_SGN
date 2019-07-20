@@ -1,0 +1,21 @@
+SerialManager
+/home/robot/catkin_ws/devel/.private/serial_manager/share/roseus/ros/serial_manager/manifest.l /home/robot/catkin_ws/devel/share/roseus/ros/serial_manager/manifest.l
+/home/robot/catkin_ws/devel/.private/serial_manager/share/roseus/ros/serial_manager/msg/distance_msg.l /home/robot/catkin_ws/devel/share/roseus/ros/serial_manager/msg/distance_msg.l
+/home/robot/catkin_ws/devel/.private/serial_manager/share/serial_manager/cmake/serial_managerConfig-version.cmake /home/robot/catkin_ws/devel/share/serial_manager/cmake/serial_managerConfig-version.cmake
+/home/robot/catkin_ws/devel/.private/serial_manager/share/serial_manager/cmake/serial_manager-msg-paths.cmake /home/robot/catkin_ws/devel/share/serial_manager/cmake/serial_manager-msg-paths.cmake
+/home/robot/catkin_ws/devel/.private/serial_manager/share/serial_manager/cmake/serial_managerConfig.cmake /home/robot/catkin_ws/devel/share/serial_manager/cmake/serial_managerConfig.cmake
+/home/robot/catkin_ws/devel/.private/serial_manager/share/serial_manager/cmake/serial_manager-msg-extras.cmake /home/robot/catkin_ws/devel/share/serial_manager/cmake/serial_manager-msg-extras.cmake
+/home/robot/catkin_ws/devel/.private/serial_manager/share/gennodejs/ros/serial_manager/_index.js /home/robot/catkin_ws/devel/share/gennodejs/ros/serial_manager/_index.js
+/home/robot/catkin_ws/devel/.private/serial_manager/share/gennodejs/ros/serial_manager/msg/_index.js /home/robot/catkin_ws/devel/share/gennodejs/ros/serial_manager/msg/_index.js
+/home/robot/catkin_ws/devel/.private/serial_manager/share/gennodejs/ros/serial_manager/msg/distance_msg.js /home/robot/catkin_ws/devel/share/gennodejs/ros/serial_manager/msg/distance_msg.js
+/home/robot/catkin_ws/devel/.private/serial_manager/share/common-lisp/ros/serial_manager/msg/_package.lisp /home/robot/catkin_ws/devel/share/common-lisp/ros/serial_manager/msg/_package.lisp
+/home/robot/catkin_ws/devel/.private/serial_manager/share/common-lisp/ros/serial_manager/msg/serial_manager-msg.asd /home/robot/catkin_ws/devel/share/common-lisp/ros/serial_manager/msg/serial_manager-msg.asd
+/home/robot/catkin_ws/devel/.private/serial_manager/share/common-lisp/ros/serial_manager/msg/distance_msg.lisp /home/robot/catkin_ws/devel/share/common-lisp/ros/serial_manager/msg/distance_msg.lisp
+/home/robot/catkin_ws/devel/.private/serial_manager/share/common-lisp/ros/serial_manager/msg/_package_distance_msg.lisp /home/robot/catkin_ws/devel/share/common-lisp/ros/serial_manager/msg/_package_distance_msg.lisp
+/home/robot/catkin_ws/devel/.private/serial_manager/include/serial_manager/distance_msg.h /home/robot/catkin_ws/devel/include/serial_manager/distance_msg.h
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/libSerialManagerFunction.so /home/robot/catkin_ws/devel/lib/libSerialManagerFunction.so
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/serial_manager/SerialManager /home/robot/catkin_ws/devel/lib/serial_manager/SerialManager
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/pkgconfig/serial_manager.pc /home/robot/catkin_ws/devel/lib/pkgconfig/serial_manager.pc
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/python2.7/dist-packages/serial_manager/__init__.py /home/robot/catkin_ws/devel/lib/python2.7/dist-packages/serial_manager/__init__.py
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/python2.7/dist-packages/serial_manager/msg/_distance_msg.py /home/robot/catkin_ws/devel/lib/python2.7/dist-packages/serial_manager/msg/_distance_msg.py
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/python2.7/dist-packages/serial_manager/msg/__init__.py /home/robot/catkin_ws/devel/lib/python2.7/dist-packages/serial_manager/msg/__init__.py

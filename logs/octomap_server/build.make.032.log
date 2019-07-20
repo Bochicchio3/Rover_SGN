@@ -1,0 +1,28 @@
+[  5%] Built target octomap_server_gencfg
+[ 11%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o[0m
+[ 17%] [32m[1mLinking CXX shared library /home/robot/catkin_ws/devel/.private/octomap_server/lib/liboctomap_server.so[0m
+[ 29%] Built target octomap_server
+[35m[1mScanning dependencies of target octomap_server_static[0m
+[35m[1mScanning dependencies of target octomap_server_nodelet[0m
+[35m[1mScanning dependencies of target octomap_server_node[0m
+[35m[1mScanning dependencies of target octomap_server_multilayer[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_static[0m
+[ 58%] Built target octomap_server_static
+[35m[1mScanning dependencies of target octomap_saver[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_saver[0m
+[ 70%] Built target octomap_saver
+[35m[1mScanning dependencies of target octomap_tracking_server_node[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_multilayer[0m
+[ 94%] [32m[1mLinking CXX shared library /home/robot/catkin_ws/devel/.private/octomap_server/lib/liboctomap_server_nodelet.so[0m
+[ 94%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_node[0m
+[ 94%] Built target octomap_server_nodelet
+[ 94%] Built target octomap_server_node
+[ 94%] Built target octomap_server_multilayer
+[100%] [32m[1mLinking CXX executable /home/robot/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_tracking_server_node[0m
+[100%] Built target octomap_tracking_server_node

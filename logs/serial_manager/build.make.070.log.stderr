@@ -1,0 +1,6 @@
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_function_B.cpp:200:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcase[m[K’
+         case wait_PAYLOAD:
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/SerialManagerFunction.dir/src/serial_manager_function_B.cpp.o] Error 1
+make[1]: *** [CMakeFiles/SerialManagerFunction.dir/all] Error 2
+make: *** [all] Error 2

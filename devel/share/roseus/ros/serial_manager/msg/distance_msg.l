@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/share/roseus/ros/serial_manager/msg/distance_msg.l

@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/devel/.private/prova
+
+Name: prova
+Description: Description of prova
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robot/catkin_ws/devel/.private/prova/lib 
+Requires: 

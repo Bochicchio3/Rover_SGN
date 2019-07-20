@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/devel/.private/serial_manager
+
+Name: serial_manager
+Description: Description of serial_manager
+Version: 0.0.0
+Cflags: -I/home/robot/catkin_ws/devel/.private/serial_manager/include
+Libs: -L/home/robot/catkin_ws/devel/.private/serial_manager/lib 
+Requires: message_runtime

@@ -1,0 +1,14 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target SerialManagerFunction
+[ 18%] Built target std_msgs_generate_messages_py
+[ 18%] Built target std_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_lisp
+[ 18%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target _serial_manager_generate_messages_check_deps_distance_msg
+[ 36%] Built target SerialManager
+[ 54%] Built target serial_manager_generate_messages_eus
+[ 81%] Built target serial_manager_generate_messages_nodejs
+[ 81%] Built target serial_manager_generate_messages_py
+[ 90%] Built target serial_manager_generate_messages_lisp
+[100%] Built target serial_manager_generate_messages_cpp
+[100%] Built target serial_manager_generate_messages

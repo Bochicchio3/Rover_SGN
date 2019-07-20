@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/lib/python2.7/dist-packages/serial_manager/__init__.py

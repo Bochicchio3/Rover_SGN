@@ -1,0 +1,6 @@
+[01m[K/home/robot/catkin_ws/src/SerialManager/src/serial_manager_node_B.cpp:48:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+ pos_x_b=\000;
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/SerialManager.dir/src/serial_manager_node_B.cpp.o] Error 1
+make[1]: *** [CMakeFiles/SerialManager.dir/all] Error 2
+make: *** [all] Error 2

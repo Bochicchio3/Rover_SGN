@@ -1,0 +1,113 @@
+#include "serial_manager.h"
+
+/*****************************************************************/
+/*                                                               */
+/*                 MAIN                                          */
+/*****************************************************************/
+int main(int argc, char **argv)
+{
+  /**
+   * The ros::init() function needs to see argc and argv so that it can perform
+   * any ROS arguments and name remapping that were provided at the command line.
+   * For programmatic remappings you can use a different version of init() which takes
+   * remappings directly, but for most command-line programs, passing argc and argv is
+   * the easiest way to do it.  The third argument to init() is the name of the node.
+   *
+   * You must call one of the versions of ros::init() before using any other
+   * part of the ROS system.
+  */
+  ros::init(argc, argv, "Serial_Manager");
+
+  /**
+   * NodeHandle is the main access point to communications with the ROS system.
+   * The first NodeHandle constructed will fully initialize this node, and the last
+   * NodeHandle destructed will close down the node.
+   */
+    ros::NodeHandle n;
+    //pose_topic = n.subscribe<aruco_mapping::ArucoMarker>("/napodrone_pose", 1, &Pose_cb);
+pose_topic = n.subscribe<geometry_msgs::PoseStamped>("/poseCam", 1, &Pose_cb);
+
+stm_pose_topic = n.advertise<geometry_msgs::PoseStamped>("stm/pose_body_from_board",100);
+rviz_pose_topic = n.advertise<geometry_msgs::PoseStamped>("stm/rviz_pose",100);
+
+    //leggo i parametri specificati nel launch file
+    std::string seriale_dev;
+    n.param<std::string>("/SerialManager/dev", seriale_dev, "/dev/ttyS1");
+    n.param<bool>("/SerialManager/stream_pose", stream_pose, false);
+    n.param<int>("/SerialManager/pose_el_time", pose_el_time, 500);
+
+    int serial;
+    // init della seriale
+    int result = serial_init(&serial, seriale_dev.c_str());
+    //inizializzo stream_pose_time
+    gettimeofday(&stream_pose_time, NULL);
+    ros::Rate loop_rate(100); // 100 Hz
+    if (result == 1)
+    {
+        while(ros::ok())
+        {
+
+          /*LEGGO DALLA SERIALE*/
+	      read_from_serial(&serial);
+
+          /*CALCOLO TEMPI*******************************************************************************/
+          //leggo il tempo e calcolo quanto è passato dall'ultimo pacchetto ricevuto
+          gettimeofday(&current_time, NULL);
+          //calcolo tempo per invio di una misura di poszione
+          elapsed_time_pose = (current_time.tv_sec - stream_pose_time.tv_sec) * 1000;
+          elapsed_time_pose += (current_time.tv_usec - stream_pose_time.tv_usec) / 1000;
+          
+          /********INVIO UN PING******************************************************************************/
+         /* if(elapsed_time_ping > ack_el_time)
+          {
+
+            coda_send_seriale.push(HEADER_A);
+            coda_send_seriale.push(HEADER_B);
+            coda_send_seriale.push(PAYLOAD_PING);
+            coda_send_seriale.push(PAYLOAD_ACK); 
+
+            //aggiorno ping_time
+            gettimeofday(&ping_time, NULL);
+          }*/
+          /*************************INVIO POSE*********************************************************************/
+          if(stream_pose && elapsed_time_pose > pose_el_time && new_packet_pose)
+          {
+
+	//ROS_INFO("dato ricevuto");
+          	//cout<<"elapsed time:"<<elapsed_time_pose<<endl;
+            //devo inviare la posizione letta
+            coda_send_seriale.push(HEADER_A);
+            coda_send_seriale.push(HEADER_B);
+            coda_send_seriale.push(PAYLOAD_POSE);
+            encode_payload(global_camera_pose.position.x );
+            encode_payload(global_camera_pose.position.y );
+            encode_payload(global_camera_pose.position.z );
+            encode_payload(global_camera_pose.orientation.x );
+            encode_payload(global_camera_pose.orientation.y );
+            encode_payload(global_camera_pose.orientation.z );
+
+            new_packet_pose = 0;
+
+           /*********INVIO SU SERIALE***********************************************************/
+          //funzione per scrivere su seriale
+          write_to_serial(&serial);
+
+
+
+          }
+
+
+          /*********LEGGO LE CALLBACK***********************************************************/
+          //vedi se arrivato qualcosa sulle callback
+          ros::spinOnce();
+
+
+
+            loop_rate.sleep();
+        }
+
+    }
+
+
+  return 0;
+}

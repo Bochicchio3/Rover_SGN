@@ -1,0 +1,4 @@
+Symlinking /home/robot/catkin_ws/devel/share/prova/cmake/provaConfig.cmake
+Symlinking /home/robot/catkin_ws/devel/share/prova/cmake/provaConfig-version.cmake
+Symlinking /home/robot/catkin_ws/devel/lib/pkgconfig/prova.pc
+Symlinking /home/robot/catkin_ws/devel/lib/python2.7/dist-packages/prova/__init__.py

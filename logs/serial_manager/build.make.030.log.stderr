@@ -1,0 +1,4 @@
+make[2]: Warning: File '/home/robot/catkin_ws/devel/.private/serial_manager/lib/libSerialManagerFunction.so' has modification time 2371 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/robot/catkin_ws/devel/.private/serial_manager/lib/serial_manager/SerialManager' has modification time 21378 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

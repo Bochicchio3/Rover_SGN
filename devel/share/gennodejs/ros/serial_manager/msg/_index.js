@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/serial_manager/share/gennodejs/ros/serial_manager/msg/_index.js

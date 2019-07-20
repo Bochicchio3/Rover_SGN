@@ -1,0 +1,1 @@
+/home/robot/catkin_ws/devel/.private/icaro_uwb/lib/pkgconfig/icaro_uwb.pc
