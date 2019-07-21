@@ -114,3 +114,6 @@ You can succesfully proceed to command the Rover to the desired waypoint.
 Read the guide on the Matlab_GUI for details on how to control the robot.
 
 
+#The Ros Network
+
+To do: Insert a rqt_graph screen.
