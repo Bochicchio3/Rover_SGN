@@ -170,6 +170,7 @@ if __name__ == '__main__':
             print("No Pozyx connected. Check your USB cable or your driver!")
 
         # Set anchors' ID and Coordinates
+        # Modify the coordinates with the results of the auto or manual calibration
         anchor_ids = [0x6902, 0x6e7a, 0x6e44, 0x6e6c]
         anchors = [DeviceCoordinates(anchor_ids[0], 1, Coordinates(0, 0, 0)),
                DeviceCoordinates(anchor_ids[1], 1, Coordinates(0,5228.0  , 0)),
