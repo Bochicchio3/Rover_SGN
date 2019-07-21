@@ -7,7 +7,7 @@ For a detalied explaination of the code:
 
 ### To do: ask permission for the repository
 
-Only small modifications have been made to switch to a python executable to a Ros package.
+Only small modifications have been made to switch from a python executable to a Ros package.
 Here you will find a detailed explanation of this modfications.
 
 
