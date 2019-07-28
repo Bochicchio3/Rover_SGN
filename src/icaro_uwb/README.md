@@ -47,10 +47,3 @@ if status == POZYX_SUCCESS:
 
 Publish the position message in the topic determined by the tag id (0 or 1 by default)
 
-## Final considerations:
-
-We get inaccuracies in the order of 20-30 centimeters which is much less than nominal precision.
-Also the range is limited to 6-8 meters while the nominal range should be 20 meters.
-
-We have tried to modify the frequency of the communication, as well as the bandwith, but we didn't see any improvement.
-Indoor and outdoor, the performance are quite similar, while we obviously expected a better range outside.
