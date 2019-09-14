@@ -104,16 +104,11 @@ roslaunch serial_manager (TAB for auto completion)
 ```
 ### In the third terminal:
 ```
-rosrun rover_gui (TAB for auto completion)
+rover_gui
 ```
-
-## THIS WILL NEED TO BE UPDATED AFTER THE REVIEW IS COMPLETED
 
 Now you should see the Rover_gui interface and the Matlab_gui opened.
 You can succesfully proceed to command the Rover to the desired waypoint.
 Read the guide on the Matlab_GUI for details on how to control the robot.
 
 
-#The Ros Network
-
-To do: Insert a rqt_graph screen.
