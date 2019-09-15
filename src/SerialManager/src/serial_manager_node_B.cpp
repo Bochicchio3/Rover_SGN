@@ -7,11 +7,11 @@ ros::init(argc, argv, "Serial_Manager");
 ros::NodeHandle n;
 /******************INSTANZIATE ALL THE SUBSCRIBERS AND PUBLISHER***********************************************************************/
 
-ros::Subscriber forward_pose_topic = n.subscribe<geometry_msgs::Point>("/turtle1/tag_pose0", 1, &Pose_cb_forward);
-ros::Subscriber backward_pose_topic = n.subscribe<geometry_msgs::Point>("/turtle1/tag_pose1", 1, &Pose_cb_back);
-ros::Subscriber waypoint = n.subscribe<geometry_msgs::Point>("/turtle1/waypoint_publisher", 1, &waypoint_cb);
-ros::Subscriber start_and_stop=n.subscribe<std_msgs::Float64>("/turtle1/start_and_stop", 1, &start_and_stop_cb);
-ros::Publisher heading_angle= n.advertise<geometry_msgs::Point>("/turtle1/orientation",100);
+ros::Subscriber forward_pose_topic = n.subscribe<geometry_msgs::Point>("/tag_pose0", 1, &Pose_cb_forward);
+ros::Subscriber backward_pose_topic = n.subscribe<geometry_msgs::Point>("/tag_pose1", 1, &Pose_cb_back);
+ros::Subscriber waypoint = n.subscribe<geometry_msgs::Point>("/waypoint_publisher", 1, &waypoint_cb);
+ros::Subscriber start_and_stop=n.subscribe<std_msgs::Float64>("/start_and_stop", 1, &start_and_stop_cb);
+ros::Publisher heading_angle= n.advertise<geometry_msgs::Point>("/orientation",100);
 /******************DEFAULT PARAMETERS FOR THE SERIAL PORT***********************************************************************/
 
   n.param<std::string>("/SerialManager/dev", seriale_dev, "/dev/ttyS0");
