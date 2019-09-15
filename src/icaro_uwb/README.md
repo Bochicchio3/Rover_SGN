@@ -12,7 +12,7 @@ Here you will find a detailed explanation of this modfications.
 
 ## 1. Anchors ID and coordinates
 
-This is where you must upload the coordinates resulting from auto calibration or manual calibration
+This is where you must upload the coordinates. If for any reason you need to upload coordinates manually, upload new measurements here.
 Make sure that anchor_ids are correct. 
 BE AWARE that some of the anchor may not work. The reliable anchors are: 0x6902, 0x6e7a, 0x6e44, 0x6e6c
 ```
